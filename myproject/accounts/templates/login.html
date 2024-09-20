@@ -6,9 +6,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="css/estilo.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'accounts/css/style.css' %}">
 
-    <link rel="icon" href="imagenes/sneakersArg-ico.ico">
+    <link rel="icon" href="{% static 'accounts/images/sneakersArg-ico.ico' %}">
     <title>Sneakers Arg</title>
 </head>
 
@@ -34,7 +35,7 @@
     <header>
         <nav class="navbar navbar-expand-md p-3 m-auto">
             <div class="container-fluid">
-              <img src="imagenes/sneakersArg.png" href="#" style="height: 55px;"/>
+              <img src="{% static 'accounts/images/sneakersArg.png' %}" href="#" style="height: 55px;"/>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">Menú hamburguesa</span>
@@ -82,18 +83,18 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagenes/slider-zapaUno.jpg" class="d-block w-100">
+            <img src="{% static 'accounts/images/slider-zapaUno.jpg' %}" class="d-block w-100">
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/slider-zapaDos.jpeg" class="d-block w-100">
+            <img src="{% static 'accounts/images/slider-zapaDos.jpeg' %}" class="d-block w-100">
             <div class="carousel-caption d-none d-sm-block">
               
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/slider-zapaTres.jpeg" class="d-block w-100">
+            <img src="{% static 'accounts/images/slider-zapaTres.jpeg' %}" class="d-block w-100">
             <div class="carousel-caption d-none d-sm-block">
               
             </div>
@@ -131,7 +132,7 @@
           </p>
           </div>
             <picture>     
-              <img src="imagenes/zpatillasNikeModelo.jpg" alt="Billie Eilish en la gala de Swarm, serie en la que participó. " title="Billie Eilish en la gala de Swarm.">
+              <img src="{% static 'accounts/images/zpatillasNikeModelo.jpg' %}" alt="Billie Eilish en la gala de Swarm, serie en la que participó. " title="Billie Eilish en la gala de Swarm.">
           </picture>
         </section>
       </div>
@@ -143,7 +144,7 @@
         <div id="grid-productos" style="height: 1930px;" class="d-grid">
 
           <div id="af1-high" class="card" style="width: 22rem;">
-            <img src="imagenes/productos/af1high-mushroom.webp" class="card-img-top" alt="Air Force 1 Mushroom">
+            <img src="{% static 'accounts/images/af1high-mushroom.webp' %}" class="card-img-top" alt="Air Force 1 Mushroom">
             <div class="card-body">
               <span class="card-title">Air Force 1 Mushroom</span>
               <p class="card-text">Como joven y creativa moderna, Billie Eilish ama y respeta los clásicos, incluidos los íconos de las zapatillas como las Air Force 1. Para sus propias Air Force 1, remezcló el clásico eligiendo materiales ambientalmente preferidos. La entresuela Nike Grind se combina con la parte superior tonal de color hongo, que a su vez está hecha con un material de nobuck sintético elaborado con contenido reciclado posconsumo para una apariencia y sensación súper suaves, todo diseñado teniendo en cuenta la sostenibilidad. Capturando el estilo oversized característico de Billie, cinco correas gruesas en la parte media del pie, inspiradas en Alpha Force Low y Air Trainer 3, cubren los cordones, dándole a la silueta una apariencia única y atrevida.</p>
@@ -168,16 +169,16 @@
                     <div id="carrousel-af1high" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="imagenes/productos/af1high-mushroom.webp" class="d-block w-100" alt="Air Force 1 Mushroom de costado">
+                          <img src="{% static 'accounts/images/af1high-mushroom.webp' %}" class="d-block w-100" alt="Air Force 1 Mushroom de costado">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1high-both.webp" class="d-block w-100" alt="Par de Air Force 1 Mushroom">
+                          <img src="{% static 'accounts/images/af1high-both.webp' %}" class="d-block w-100" alt="Par de Air Force 1 Mushroom">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1high-back.webp" class="d-block w-100" alt="Parte de atrás de las Air Force 1 Mushroom">
+                          <img src="{% static 'accounts/images/af1high-back.webp' %}" class="d-block w-100" alt="Parte de atrás de las Air Force 1 Mushroom">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1high-up.webp" class="d-block w-100" alt="Air Force 1 Mushroom vistas de arriba">
+                          <img src="{% static 'accounts/images/af1high-up.webp' %}" class="d-block w-100" alt="Air Force 1 Mushroom vistas de arriba">
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-af1high" data-bs-slide="prev">
@@ -239,7 +240,7 @@
 
 
           <div id="af1-low" class="card" style="width: 22rem;">
-            <img src="imagenes/productos/af1low-sequoia.webp" class="card-img-top" alt="AF-1 Low SP Sequoia">
+            <img src="{% static 'accounts/images/af1low-sequoia.webp' %}" class="card-img-top" alt="AF-1 Low SP Sequoia">
             <div class="card-body">
               <span class="card-title">AF-1 Low SP Sequoia</span>
               <p class="card-text">Parches superiores AF1 hechos de desechos sintéticos sobrantes del exceso de materiales AF1 High. Base textil reciclada. Se agregaron correas textiles recicladas al rand del AF1. Nueva entresuela AF1 con Nike Regrind y perímetro de suela de goma sólida. Metal Dubrae con el logotipo Blohsh de Billie. Mensaje lírico oculto en strobel, debajo de la plantilla, que dice: "Es difícil detenerlo una vez que comienza". Plantilla hecha de espuma de desecho Zote. Logotipo de Nike x Billie en la plantilla.</p>
@@ -263,16 +264,16 @@
                     <div id="carrousel-af1low" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="imagenes/productos/af1low-sequoia.webp" class="d-block w-100" alt="AF-1 Low SP Sequoia de costado">
+                          <img src="{% static 'accounts/images/af1low-sequoia.webp' %}" class="d-block w-100" alt="AF-1 Low SP Sequoia de costado">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1low-both.webp" class="d-block w-100" alt="Par de AF-1 Low SP Sequoia">
+                          <img src="{% static 'accounts/images/af1low-both.webp' %}" class="d-block w-100" alt="Par de AF-1 Low SP Sequoia">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1low-back.webp" class="d-block w-100" alt="Parte de atrás de las AF-1 Low SP Sequoia">
+                          <img src="{% static 'accounts/images/af1low-back.webp' %}" class="d-block w-100" alt="Parte de atrás de las AF-1 Low SP Sequoia">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/af1low-up.webp" class="d-block w-100" alt="AF-1 Low SP Sequoia vistas de arriba">
+                          <img src="{% static 'accounts/images/af1low-up.webp' %}" class="d-block w-100" alt="AF-1 Low SP Sequoia vistas de arriba">
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-af1low" data-bs-slide="prev">
@@ -334,7 +335,7 @@
 
 
           <div id="jordan-1" class="card" style="width: 22rem;">
-            <img src="imagenes/productos/airjordan1ko.webp" class="card-img-top" alt="Air Jordan 1 KO">
+            <img src="{% static 'accounts/images/airjordan1ko.webp' %}" class="card-img-top" alt="Air Jordan 1 KO">
             <div class="card-body">
               <span class="card-title">Air Jordan 1 KO</span>
               <p class="card-text">Las Air Jordan 1 son las zapatillas que empezaron todo para MJ, razón por la cual Billie, naturalmente, eligió las Air Jordan 1 KO para agregar sus propios toques de diseño, incluido su logotipo personalizado en la etiqueta de la lengüeta. Tomando la forma y postura clásicas de las Air Jordan 1, Billie inundó el estilo con un verde lima característico, un guiño a su pasado y su propio punto de partida mientras mira hacia el futuro. Y por futuro nos referimos a utilizar materiales que sean mejores para el planeta. Su colaboración Air Jordan fue diseñada con materiales sostenibles, ya que este Air Jordan 1 KO está fabricado con al menos un 20% de contenido reciclado en peso.</p>
@@ -359,16 +360,16 @@
                     <div id="carrousel-airjodan1" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="imagenes/productos/airjordan1ko.webp" class="d-block w-100" alt="Air Jordan 1 KO de costado">
+                          <img src="{% static 'accounts/images/airjordan1ko.webp' %}" class="d-block w-100" alt="Air Jordan 1 KO de costado">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan1ko-both.webp" class="d-block w-100" alt="Par de Air Jordan 1 KO">
+                          <img src="{% static 'accounts/images/airjordan1ko-both.webp' %}" class="d-block w-100" alt="Par de Air Jordan 1 KO">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan1ko-back.webp" class="d-block w-100" alt="Parte de atrás de las Air Jordan 1 KO">
+                          <img src="{% static 'accounts/images/airjordan1ko-back.webp' %}" class="d-block w-100" alt="Parte de atrás de las Air Jordan 1 KO">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan1ko-up.webp" class="d-block w-100" alt="Air Jordan 1 KO vistas de arriba">
+                          <img src="{% static 'accounts/images/airjordan1ko-up.webp' %}" class="d-block w-100" alt="Air Jordan 1 KO vistas de arriba">
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-airjodan1" data-bs-slide="prev">
@@ -428,7 +429,7 @@
       
 
           <div id="alphaforce" class="card" style="width: 22rem;">
-            <img src="imagenes/productos/alphaforce-red.webp" class="card-img-top" alt="Alpha Force White and Red">
+            <img src="{% static 'accounts/images/alphaforce-red.webp' %}" class="card-img-top" alt="Alpha Force White and Red">
             <div class="card-body">
               <span class="card-title">Alpha Force White and Red</span>
               <p class="card-text">Parte superior de cuero sintético reciclado y textil reciclado. Gráfico en la parte superior de la lengüeta con el nuevo logotipo de baloncesto AAF88 + logotipo Blohsh de Billie grabado. TPU reciclado utilizado en la correa del antepié y en ambos ojales. Forro de poliéster reciclado. Tinta de algas de LIVINGINK utilizada para la pintura de la entresuela del talón y el gráfico de la parte superior de la lengüeta. Plantilla fabricada en textil reciclado. 25% de contenido reciclado total.</p>
@@ -453,16 +454,16 @@
                     <div id="carrousel-alphaforce" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="imagenes/productos/alphaforce-side.webp" class="d-block w-100" alt="Alpha Force White and Red de costado">
+                          <img src="{% static 'accounts/images/alphaforce-side.webp' %}" class="d-block w-100" alt="Alpha Force White and Red de costado">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/alphaforce-red.webp" class="d-block w-100" alt="Par de Alpha Force White and Red">
+                          <img src="{% static 'accounts/images/alphaforce-red.webp' %}" class="d-block w-100" alt="Par de Alpha Force White and Red">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/alphaforce-back.webp" class="d-block w-100" alt="Parte de atrás de las Alpha Force White and Red">
+                          <img src="{% static 'accounts/images/alphaforce-back.webp' %}" class="d-block w-100" alt="Parte de atrás de las Alpha Force White and Red">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/alphaforce-up.webp" class="d-block w-100" alt="Alpha Force White and Red vistas de arriba">
+                          <img src="{% static 'accounts/images/alphaforce-up.webp' %}" class="d-block w-100" alt="Alpha Force White and Red vistas de arriba">
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-alphaforce" data-bs-slide="prev">
@@ -523,7 +524,7 @@
           </div>
 
           <div id="jordan-15" class="card" style="width: 22rem;">
-            <img src="imagenes/productos/airjordan15.png" class="card-img-top" alt="Air Jordan 15">
+            <img src="{% static 'accounts/images/airjordan15.png' %}" class="card-img-top" alt="Air Jordan 15">
             <div class="card-body">
               <span class="card-title">Air Jordan 15</span>
               <p class="card-text">En palabras sencillas, el Air Jordan 15 es uno de los modelos favoritos de todos los tiempos de Billie. El calzado se inspiró originalmente en el jet hipersónico X-15, con un cubrecalzado interno dinámico y tecnología Zoom Air que combinan perfectamente el ajuste, la comodidad, la protección y el estilo. El look tipo mocasín hace que sea fácil de poner, algo clave para Billie luego de que se torció el tobillo y necesitó un calzado más estable. Todavía más importante para Billie es que su colaboración con Jordan se diseñó con materiales sustentables: este Air Jordan 15 está hecho con al menos un 20% de materiales reciclados por peso. </p>
@@ -549,16 +550,16 @@
                     <div id="carrousel-airjordan15" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img src="imagenes/productos/airjordan15.png" class="d-block w-100" alt="Air Jordan 15 de costado">
+                          <img src="{% static 'accounts/images/airjordan15.png' %}" class="d-block w-100" alt="Air Jordan 15 de costado">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan15-both.png" class="d-block w-100" alt="Par de Air Jordan 15">
+                          <img src="{% static 'accounts/images/airjordan15-both.png' %}" class="d-block w-100" alt="Par de Air Jordan 15">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan15-back.png" class="d-block w-100" alt="Parte de atrás de las Air Jordan 15">
+                          <img src="{% static 'accounts/images/airjordan15-back.png' %}" class="d-block w-100" alt="Parte de atrás de las Air Jordan 15">
                         </div>
                         <div class="carousel-item">
-                          <img src="imagenes/productos/airjordan15-up.png" class="d-block w-100" alt= "Air Jordan 15 vistas de arriba">
+                          <img src="{% static 'accounts/images/airjordan15-up.png' %}" class="d-block w-100" alt= "Air Jordan 15 vistas de arriba">
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carrousel-airjordan15" data-bs-slide="prev">
@@ -621,12 +622,16 @@
                     <h3 class="modal-title fs-5" id="modal5">Registrate</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div id="registrate" style="margin: 0;">
-                    <form action="#" method="POST">
-                      <input type="email" name="mail" id="mail" placeholder="Mail" required>
-                      <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
-                      <input type="submit" value="Confirmar" id="enviar"> 
+                  <div id="login" style="margin: 0;">
+                    <form method="post">
+                      {% csrf_token %}
+                      {{ form.as_p }}
+                      <button type="submit">Iniciar sesión</button>
                     </form>
+              
+                    {% if form.errors %}
+                      <p>Error en el inicio de sesión: El nombre de usuario o contraseña es erroneo</p>
+                    {% endif %}
                   </div>
                 </div>
               </div>

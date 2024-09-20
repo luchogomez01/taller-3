@@ -1,0 +1,660 @@
+nav div.container-fluid h1{
+    margin-bottom: 0
+}
+nav div.container-fluid h1 a{
+    display: inline-block;
+    background: url(../imagenes/logo-billie.png) no-repeat center center;
+    height: 60px;
+    width: 96px;
+    text-indent: -99999999999px;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+nav div.container-fluid h1 a:hover{
+    filter: brightness(1.4);
+}
+
+#barra{
+    margin-left: -112px;
+}
+
+.navbar-toggler-icon{
+    text-indent: -999999999px;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #5a0000;
+}
+.navbar .navbar-nav  a{
+    font-size: 1.125rem;
+    color: #ff80b6;
+    transition: 0.5s;
+}
+.navbar-toggler{
+    color: #ae0000;
+    background-color: #ff80b6;
+}
+
+
+.nav-item .nav-link{
+    padding-right: 2rem !important;
+}
+.navbar .navbar-nav a:hover{
+    color: #fd348b;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fd348b;
+}
+.navbar .navbar-nav .dropdown-item{
+    color: #5a0000;
+    transition: 0.5s;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #5a0000;
+}
+ul.dropdown-menu.show{
+    background-color: #ff80b6;
+}
+
+
+
+.carousel-control-prev-icon{
+    font-size: 0;
+}
+.carousel-control-next-icon{
+    font-size: 0;
+}
+.carousel-indicators{
+    font-size: 0;
+}
+.carousel-caption span{
+    color: #ae0000;
+    font-size: 1.8rem;
+    font-weight: bold; 
+}
+.carousel-caption p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    -webkit-text-stroke: 0.5px #5a0000;
+}
+
+
+h2{
+    margin-bottom: 1.2rem;
+    color: #5a0000;
+}
+
+
+
+#Sneakers{
+    margin-top: 4rem;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+    
+}
+#Sneakers div{
+    display: flex;
+    flex-direction: column;
+}
+#Sneakers img{
+    margin-left: 50px;
+    max-width: 100%;
+    display: flex;
+}
+
+
+
+#billie-nike{
+    margin-top: 4rem;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+}
+#billie-nike div{
+    display: flex;
+    flex-direction: column;
+}
+#billie-nike img{
+    margin-left: 50px;
+    max-width: 100%;
+    display: flex;
+}
+blockquote{
+    margin-left: 10px;
+}
+
+
+
+#productos{
+    margin-top: 4rem;
+}
+#grid-productos{
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    grid-template-rows: auto auto;  
+}
+#grid-productos :first-child{
+    grid-column: 1/3;
+}
+#grid-productos :nth-child(2){
+    grid-column: 3/5;
+}
+#grid-productos :nth-child(3){
+    grid-column: 5/7;
+}
+#grid-productos :nth-child(4){
+    grid-column: 2/4;
+}
+#grid-productos :nth-child(5){
+    grid-column: 4/6;
+}
+#grid-productos .card{
+    margin-bottom: 3rem;
+}
+
+.card{
+    transition: 0.5s;
+    max-height: 540px;
+}
+.card:hover{
+    width: 23rem !important;
+}
+.card-img-top{
+    background-color: #5a0000;
+}
+.card-body{
+    background-color: #ff80b6;
+}
+.card span.card-title{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 500;
+}
+.card-text{
+    color: black;
+}
+.card .btn{
+    background-color: #ae0000;
+    border-color: #5a0000;
+    transition: 0.5s;
+}
+.card .btn:hover{
+    background-color: #ff0000;
+}
+.precio{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    float: right;
+    margin-top: 2px;
+}
+
+
+.modal-body .carousel{
+    max-height: 289px;
+}
+.modal-header h3{
+    margin-left: 1rem;
+    color: #5a0000;
+    font-size: 1.8rem !important;
+}
+.modal-header .precio{
+    margin-left: 4rem;
+    font-size: 1.8rem;
+}
+.modal-body img{
+    background-color: #5a0000;
+    border-radius: 1rem;
+}
+.modal-body p{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.modal-body .texto-modal button{
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 0;
+    transition: none;
+    padding: 1px 6px;
+}
+.btn.active{
+    background-color: #ff80b6 !important;
+}
+.modal-body .texto-modal button:hover{
+    background-color: #dddada;
+}
+.modal-body span{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+.modal-body .carousel-control-prev span{
+    margin: 0;
+}
+.modal-body .carousel-control-next span{
+    margin: 0;
+}
+
+.accordion{
+    margin: 1rem;
+}
+.modal-body .accordion .accordion-button{
+    background-color: #ff80b6 !important;
+    font-weight: 500;
+    border: none;
+    padding: 16px 20px;
+
+}
+.accordion-button:not(.collapsed) {
+    color: #5a0000;
+}
+.accordion-item span{
+    margin: 0;
+}
+.accordion-body p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#galeria{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+#carrousel-galeria{
+    max-width: 600px;
+    grid-row: 1/3;
+}
+#fotos{
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 359px 380px 355px;
+    justify-items: center;
+}
+#fotos img{
+    display: flex;
+    max-width: 100%;
+}
+#fotos iframe{
+    margin-top: 15px;
+    width: 90%;
+    height: 95%;
+}
+
+
+
+#registrate{
+    margin-top: 4rem;
+}
+#registrate form{
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#login form{
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#registrate input{
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem;
+    background-color: #ffedf5;
+    border: 2px solid #5a0000;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+}
+#login input{
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem;
+    background-color: #ffedf5;
+    border: 2px solid #5a0000;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+}
+#registrate textarea{
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem;
+    background-color: #ffedf5;
+    border: 2px solid #5a0000;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+}
+#registrate input:hover{
+    background-color: #fccfe3;
+}
+#login input:hover{
+    background-color: #fccfe3;
+}
+#registrate textarea:hover{
+    background-color: #fccfe3;
+}
+#registrate #enviar{
+    width: 34%;
+    height: 34%;
+    padding: 0;
+    background-color: #5a0000;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.5s;
+}
+#registrate #enviar:hover{
+    background-color: #ae0000;
+    width: 38%;
+    height: 38%;
+}
+#login #enviar{
+    width: 34%;
+    height: 34%;
+    padding: 0;
+    background-color: #5a0000;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.5s;
+}
+#login #enviar:hover{
+    background-color: #ae0000;
+    width: 38%;
+    height: 38%;
+}
+
+
+footer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+summary{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5a0000;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+details .d-grid{
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+details li{
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+}
+details li span{
+    font-weight: 500;
+    color: #5a0000;
+}
+details img{
+    border: 5px ridge #5a0000;
+    border-radius: 2rem;
+}
+details ul{
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:1500px){
+    #galeria{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    #productos h2{
+        margin-left: 2rem;
+    }
+
+    #Sneakers{
+        margin-top: 3rem;
+    }
+    #billie-nike{
+        margin-top: 3rem;
+    }
+    #productos {
+        margin-top: 3rem;
+    }
+    #registrate{
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width:1300px){
+    #galeria{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 3rem;
+    }
+    #carrousel-galeria{
+        grid-row: 1/2;
+    }
+    #fotos{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto 345px 345px;
+    }
+    #fotos img{
+        margin-top: 15px;
+    }
+    #fotos iframe{
+        max-width: 590px;
+        max-height: 345px;
+    }
+}
+
+
+@media screen and (max-width:1100px){
+    .card{
+        width: 18rem !important;
+        max-height: 500px;
+    }
+    .card:hover{
+        width: 19rem !important;
+    }
+    #grid-productos .card{
+        margin-bottom: 1rem;
+    }
+
+    #Sneakers{
+        margin-top: 2.5rem;
+    }
+    #Sneakers img{
+        margin-left: 10px;
+    }
+
+    #billie-nike{
+        margin-top: 2.5rem;
+    }
+    #billie-nike img{
+        margin-left: 10px;
+    }
+
+    #productos {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width:995px){
+    #grid-productos .modal-body :first-child {
+        grid-column: 1/2;
+    }
+    #grid-productos .modal-body :nth-child(2) {
+        grid-column: 1/2;
+    }
+    .modal-body .carousel{
+        max-height: none;
+    }
+
+    #registrate form{
+        grid-template-columns: 1fr;
+    }
+    #registrate #enviar{
+        width: 40%;
+        height: 80%;
+    }
+    #registrate #enviar:hover{
+        background-color: #ae0000;
+        width: 44%;
+        height: 84%;
+    }
+    .modal-header .precio{
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .modal-header h3{
+        font-size: 1.5rem !important;
+    }
+}
+
+
+@media screen and (max-width:950px){
+    #Sneakers{
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    #Sneakers img{
+        margin-left: 0;
+    }
+    #billie-nike{
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+    }
+    #billie-nike img{
+        margin-left: 0;
+    }
+    #productos {
+        margin-top: 2rem;
+    }
+    #galeria{
+        margin-top: 2.5rem;
+    }
+    #registrate{
+        margin-top: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .carousel-caption span{
+        font-size: 1.6rem; 
+    }
+    .carousel-caption p{
+        font-size: 1.1rem;  
+    }
+
+    #grid-productos .card{
+        width: 22rem !important;
+        max-height: 540px;
+    }
+    #grid-productos{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    #grid-productos :first-child{
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(2){
+        grid-column: 2/4;
+    }
+    #grid-productos :nth-child(3){
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(4){
+        grid-column: 2/4;
+    }
+    #grid-productos :nth-child(5){
+        grid-column: 1/4;
+    }
+
+    #galeria{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    div #barra{
+        margin-left: -0;
+    }
+
+}
+
+
+@media screen and (max-width:740px){
+    #grid-productos .card{
+        width: 17rem !important;
+        max-height: 500px;
+    }
+    details .d-grid{
+        grid-template-columns: auto;
+    }
+    details img{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width:580px){
+    #grid-productos .card{
+        width: 22rem !important;
+        max-height: 540px;
+    }
+    #grid-productos{
+        grid-template-columns: 1fr; 
+    }
+    #grid-productos :first-child{
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(2){
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(3){
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(4){
+        grid-column: 1/2;
+    }
+    #grid-productos :nth-child(5){
+        grid-column: 1/2;
+    }
+
+    .modal-body p{
+        padding: 0.5rem;
+        margin: 0;
+    }
+    .modal-body span{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .accordion-item span{
+        margin: 0;
+    }
+    .accordion-body p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-header .precio{
+        /* margin-left: 0; */
+        font-size: 1.4rem;
+    }
+    .modal-header h3{
+        font-size: 1.4rem !important;
+    }
+}
